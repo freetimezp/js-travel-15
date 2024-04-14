@@ -282,6 +282,49 @@ header video {
 
 
 
+.memory_card {
+    width: 330px;
+    height: auto;
+    margin: 10px 30px 30px 30px;
+    overflow: hidden;
+}
+
+.memory_card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s ease-out;
+}
+
+.memory_card .content {
+    position: absolute;
+    opacity: 1;
+    bottom: 0;
+    background: linear-gradient(to top, #000, transparent);
+}
+
+.memory_card .content h6 {
+    font-style: italic;
+    font-weight: 300;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    border-bottom: 1px dashed #565454;
+    width: 100px;
+}
+
+.memory_card .content .subtitle {
+    width: 200px;
+    margin: auto;
+}
+
+.memory_card .content .title {
+    font-size: 16px;
+}
+
+.memory_card:hover img {
+    transform: scale(1.1);
+}
+
 
 
 
